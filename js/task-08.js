@@ -17,4 +17,5 @@ function handleFormSubmit(evt) {
     password: password,
   };
   console.log(info);
+  evt.currentTarget.reset();
 }
