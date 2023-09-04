@@ -6,9 +6,15 @@ console.log(typeof currentValue);
 decrementBtn.addEventListener("click", () => {
   currentValue -= 1;
   counterValue.textContent = currentValue;
+  // updateCounterValue();
 });
 
 incrementBtn.addEventListener("click", () => {
   currentValue += 1;
   counterValue.textContent = currentValue;
+  // updateCounterValue();
 });
+
+// function updateCounterValue() {
+//   counterValue.textContent = currentValue;
+// }
